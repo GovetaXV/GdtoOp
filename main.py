@@ -45,5 +45,7 @@ def upload(file):
 file_id = '15XoMFI_2R8e0iDHx8b313Zv3whyEQuES'
 destination = 'Summer Wars.mkv'
 
+print('Download has started')
 download_file_from_google_drive(file_id, destination)
+print('Upload has started')
 print(upload(destination))
