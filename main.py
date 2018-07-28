@@ -38,8 +38,12 @@ def upload(file):
 
 
 
-file_id = input('Gdrive ID: ')
-destination = input('Filename: ')
+#file_id = input('Gdrive ID: ')
+#destination = input('Filename: ')
+
+
+file_id = '15XoMFI_2R8e0iDHx8b313Zv3whyEQuES'
+destination = 'Summer Wars.mkv'
 
 download_file_from_google_drive(file_id, destination)
 print(upload(destination))
