@@ -30,8 +30,8 @@ def save_response_content(response, destination):
             if chunk: # filter out keep-alive new chunks
                 f.write(chunk)
 
-def upload(file):
-    ol = OpenLoad(idx, key)
+def upload(file, idx='e0c48fed98989cd0', key='FeNfWADI'):
+    ol = OpenLoad()
     
     uploaded_file_info = ol.upload_file(file)
     return uploaded_file_info
